@@ -10,23 +10,29 @@
   <body>
     
     <nav>
-    <div class="nav_bar" >
-        <div class="flex-item" style="flex: 1">
-            <a href="/html/">HTML</a> |
-        </div>
-        <div class="flex-item" style="flex: 1">
-            <a href="/css/">CSS</a>
+    <div id="nav_bar" >
+
+        <img src="logo.png" alt="logo" width="50" height="50">
+
+        <div class="nav_bar-item">
+            <a href="#prev-proj">Previous Projects</a>
         </div> 
-    |   <div class="flex-item" style="flex: 1">
-            <a href="/js/">JavaScript</a> |
+        <div class="nav_bar-item">
+            <a href="#skills">Skills</a>
         </div>
-        <div class="flex-item" style="flex: 1">
-            <a href="/python/">Python</a>
+        <div class="nav_bar-item">
+            <a href="#autobiography">Autobiography</a>
         </div>
     </div>
     </nav>
 
+    <!-- Featured Photo -->
+    
+    <br><br>
     <h1>Featured Photo</h1>
+    <center><img src="photo.png" alt="Photo of Fatima Eryn" width="300" height="300"></center>
+
+    <h1 id="prev-proj">Previous Projects</h1>
 
     <div class="flex-container">
         <div class="flex-item" style="flex: 3;">
@@ -40,36 +46,57 @@
         <div class="flex-item" style="flex: 2;">
             <h1>3</h1>
             <p>This is another paragraph</p>
-            <p>This is another paragraph</p>
         </div>
         <div class="flex-item" style="flex: 4;">
             <h1>4</h1>
             <p>This is another paragraph</p>
         </div>
-        <div class="flex-item" style="flex: 3;">
-            <h1>5</h1>
-            <p>This is another paragraph</p>
-            <p>This is another paragraph</p>
-            <p>This is another paragraph</p>
-            <p>This is another paragraph</p>
-            <p>This is another paragraph</p>
-        </div>
         <div class="flex-item" style="flex: 1;">
-            <h1>6</h1>
+            <h1>5</h1>
             <p>This is another paragraph</p>
         </div>
     </div>
 
-    <div class="flex-container2">
+    <br>
+
+    <div class="flex-container">
         <div class="flex-item" style="flex: 3;">
-            <h1>Skills</h1>
-            <p>This is a paragraph</p>
+            <h1 id="skills">Skills</h1>
         </div>
         <div class="flex-item" style="flex: 3;">
-            <h1>Autobiography</h1>
-            <p>This is another paragraph</p>
+            <h1 id="autobiography">Autobiography</h1>
         </div>
     </div>
+
+    <br>
+
+    <footer>
+    
+        <div class="flex-container">
+
+        <!-- footer logo -->
+        <div style="flex: flex-shrink;">
+            <img src="logo.png" alt="logo" id="footer-logo">
+        </div>
+
+        <div style="flex: 80%;">
+            <p>
+                Address: Brgy. Tagapo, City of Sta. Rosa, Laguna 
+                <br>Contact Information:
+                <br><a href="mailto:fatimaerynn@gmail.com">fatimaerynn@gmail.com</a>
+                <br>09955064798
+                <br><a href="https://cmsc100-laboratory.github.io/exer-02-html-and-css-faegusquiza/">Personal Website</a>
+                <br>Copyright Information
+                <br><a href="#nav_bar"><b>Back to Top</b></a>
+            </p>
+        </div>
+        </div>
+    </footer> 
+
   </body>
+
+    <!-- References:
+    purple flower: https://www.nicepng.com/ourpic/u2q8a9w7w7e6e6i1_freetoedit-flower-png-with-transparent-background-purple-flower/
+    -->
 
 </html>
